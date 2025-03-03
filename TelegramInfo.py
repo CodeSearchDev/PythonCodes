@@ -29,6 +29,6 @@ def get_telegram_user_details(username):
         return {"error": "User not found or profile is private."}
 
 # Example usage
-username = "itzAsuraa"  # Replace with the desired username
+username = "CodeSearchDev"  # Replace with the desired username
 user_details = get_telegram_user_details(username)
 print(user_details)
